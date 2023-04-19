@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Калькулятор обменных валют</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <section class="currencies row">
+            <div class="header col-12 mb-25">
+                <div class="header_logo">
+                    <div class="logo">
+                        <img src="img/logo.webp" />
+                    </div>
+                    <h1 class="title">Конвертер валют онлайн</h1>
+                </div>
+                <div class="descr">
+                    На нашей странице онлайн обменных курсов вы можете быстро
+                    следить за бесплатными обменными курсами многих стран,
+                    текущими ценами покупки и продажи. Вы можете выполнять
+                    быстрые расчеты с помощью конвертера валют.
+                </div>
+                <!-- <button class="add_currency_btn">
+                    <b>Добавить валюту</b>
+                </button> -->
+            </div>
+            <div id="currency_AZN" class="currency col-md-4 col-sm-6 col-12">
+                <div class="currency_item">
+                    <div class="currency_box">
+                        <div class="currency_flag">
+                            <img src="img/AZN.png" />
+                        </div>
+                        <input
+                            type="txt"
+                            class="value_input"
+                            value="100"
+                            data-cur="1"
+                        />
+                    </div>
+                    <div class="current_exchange">
+                        <span class="exchange">1 AZN = 1</span>
+                        <span class="cur">AZN</span>
+                    </div>
+                </div>
+            </div>
+            <div id="currency_USD" class="currency col-md-4 col-sm-6 col-12">
+                <div class="currency_item">
+                    <div class="currency_box">
+                        <div class="currency_flag">
+                            <img src="img/USD.png" />
+                        </div>
+                        <input
+                            type="txt"
+                            class="value_input"
+                            value=""
+                            data-cur=""
+                        />
+                    </div>
+                    <div class="current_exchange">
+                        <span class="exchange"></span>
+                        <span class="cur">USD</span>
+                    </div>
+                </div>
+            </div>
+            <div id="currency_EUR" class="currency col-md-4 col-sm-6 col-12">
+                <div class="currency_item">
+                    <div class="currency_box">
+                        <div class="currency_flag">
+                            <img src="img/EUR.png" />
+                        </div>
+                        <input
+                            type="txt"
+                            class="value_input"
+                            value=""
+                            data-cur=""
+                        />
+                    </div>
+                    <div class="current_exchange">
+                        <span class="exchange"></span>
+                        <span class="cur">EUR</span>
+                    </div>
+                </div>
+            </div>
+            <div id="currency_TRY" class="currency col-md-4 col-sm-6 col-12">
+                <div class="currency_item">
+                    <div class="currency_box">
+                        <div class="currency_flag">
+                            <img src="img/TRY.png" />
+                        </div>
+                        <input
+                            type="txt"
+                            class="value_input"
+                            value=""
+                            data-cur=""
+                        />
+                    </div>
+                    <div class="current_exchange">
+                        <span class="exchange"></span>
+                        <span class="cur">TRY</span>
+                    </div>
+                </div>
+            </div>
+            <div id="currency_RUB" class="currency col-md-4 col-sm-6 col-12">
+                <div class="currency_item">
+                    <div class="currency_box">
+                        <div class="currency_flag">
+                            <img src="img/RUB.png" />
+                        </div>
+                        <input
+                            type="txt"
+                            class="value_input"
+                            value=""
+                            data-cur=""
+                        />
+                    </div>
+                    <div class="current_exchange">
+                        <span class="exchange"></span>
+                        <span class="cur">RUB</span>
+                    </div>
+                </div>
+            </div>
+            <div id="currency_GEL" class="currency col-md-4 col-sm-6 col-12">
+                <div class="currency_item">
+                    <div class="currency_box">
+                        <div class="currency_flag">
+                            <img src="img/GEL.png" />
+                        </div>
+                        <input
+                            type="txt"
+                            class="value_input"
+                            value=""
+                            data-cur=""
+                        />
+                    </div>
+                    <div class="current_exchange">
+                        <span class="exchange"></span>
+                        <span class="cur">GEL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>
