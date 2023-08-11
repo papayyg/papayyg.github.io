@@ -1,0 +1,63 @@
+.header {
+    position: relative;
+    height: 72px;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 72px;
+        z-index: 3;
+        background: #ffffff;
+    }
+    &__wrapper {
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: block;
+        margin-top: 15px;
+        width: 119.23px;
+        height: 14px;
+    }
+    &__trigger {
+        padding-right: 10px;
+        display: flex;
+    }
+    &__button {
+        padding: 14px 20px;
+        margin: 0 27px 0 0;
+        width: 78px;
+        height: 40px;
+        border: 1px solid #e0e0e0;
+        border-radius: 2px;
+        background: #ffffff;
+
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 0px;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+            box-shadow: 1px 1px 10px black;
+            transform: scale(1.02);
+        }
+        a {
+            color: #1d1d1d;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    &__img {
+        display: block;
+        margin-top: 9px;
+        width: 18.95px;
+        height: 21.74px;
+        transition: all 0.3s;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

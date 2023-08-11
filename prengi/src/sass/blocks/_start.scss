@@ -1,0 +1,21 @@
+.start {
+    padding: 80px 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        margin: 74px 0 30px;
+        color: #393939;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+        text-align: center;
+    }
+    &__img  {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.consultation {
+    padding: 100px 0 92px 0;
+    min-height: 680px;
+    background: url("../img/bg/free_bg.jpg") center (center/cover) no-repeat;
+    &__descr {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,13 @@
+.title {
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    &_subtitle {
+        font-size: 21px;
+        font-weight: 300;
+        text-transform: none;
+    }
+}

@@ -1,0 +1,39 @@
+.feed {
+    padding-bottom: 71px;
+    &-client {
+        width: calc(100% - 62px);
+        margin-top: 100px;
+        display: flex;
+        &__img {
+            margin-right: 62px;
+            width: 169px;
+            height: 169px;
+            img {
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+        &__info {
+            width: 100%;
+        }
+        &__name {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        &__title {
+            margin-top: 14px;
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 14px;
+        }
+        &__descr {
+            margin-top: 19px;
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

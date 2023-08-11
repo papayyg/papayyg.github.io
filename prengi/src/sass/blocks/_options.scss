@@ -1,0 +1,66 @@
+.options {
+    &__wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    &__title {
+        position: absolute;
+        left: 50%;
+        top: 80px;
+        transform: translateX(-50%);
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 35.99px;
+        text-align: center;
+        z-index: 2;
+    }
+    &__servers,
+    &__cloud {
+        position: relative;
+        color: #ffffff;
+        &-title {
+            position: relative;
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+            z-index: 2;
+        }
+        &-subtitle {
+            position: relative;
+            margin-top: 19px;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+            z-index: 2;
+            width: 483px;
+            display: inline-block;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            width: 167px;
+            height: 167px;
+            background-color: #00c2f0;
+            opacity: 0.3;
+            z-index: 1;
+        }
+    }
+    &__cloud {
+        background: url("../img/cloud_storage.jpg") no-repeat 50% / cover;
+        padding: 270px 82px 220px 0px;
+        text-align: right;
+        &::before {
+            right: 43px;
+        }
+    }
+    &__servers {
+        background: url("../img/servers.jpg") no-repeat 50% / cover;
+        padding: 270px 0px 220px 82px;
+        text-align: left;
+        &::before {
+            left: 43px;
+        }
+    }
+}

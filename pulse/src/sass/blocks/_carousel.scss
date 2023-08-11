@@ -1,0 +1,24 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 70px;
+    }
+    .slick-slide img {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        border: none;
+        background-color: #fff;
+    }
+    .slick-next {
+        left: auto;
+        right: 0;
+    }
+}

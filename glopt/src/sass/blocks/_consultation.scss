@@ -1,0 +1,61 @@
+.consultation {
+    padding-bottom: 58px;
+    &__title {
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__box {
+        margin-top: 71px;
+        position: relative;
+        border-left: 1px solid #898989;
+        border-right: 1px solid #898989;
+        border-top: 1px solid #c4c4c4;
+        border-bottom: 1px solid #c4c4c4;
+        min-height: 165px;
+        padding: 68px 0 53px 0;
+        &-img {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+            padding: 0 14px;
+            img {
+                border: 1px solid $main-color;
+                border-radius: 100%;
+                padding: 17px 20px 24px 23px;
+            }
+        }
+        &-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+            padding: 0 14%;
+            gap: 6px;
+            input {
+                border: 1px solid rgba(0, 0, 0, 0.21);
+                border-radius: 20px;
+                line-height: 40px;
+                padding: 0 28px;
+                color: rgba($color: #101010, $alpha: 0.7);
+                font-size: 13px;
+                font-weight: 300;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+        &-btn {
+            padding: 0 14px;
+            background-color: white;
+            position: absolute;
+            bottom: -22.5px;
+            left: 50%;
+            transform: translateX(-50%);
+            button {
+                width: 180px;
+            }
+        }
+    }
+}

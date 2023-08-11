@@ -1,0 +1,49 @@
+.advantage {
+    padding: 80px 0;
+    &__title {
+        color: #393939;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__wrapper {
+        display: grid;
+        margin-top: 44px;
+        grid-template-columns: 1fr 1fr;
+    }
+    &__block {
+        padding: 100px 0;
+    }
+    &__text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 117px;
+        height: 156px;
+        background-color: rgba($color: #000000, $alpha: 0.44);
+        color: #ffffff;
+        font-size: 23px;
+        line-height: 26px;
+        text-align: center;
+    }
+}
+
+#time {
+    background: url("../img/advantage/time.jpg") no-repeat 50% / cover;
+}
+#intellect {
+    background: url("../img/advantage/intellect.jpg") no-repeat 50% / cover;
+}
+#world {
+    background: url("../img/advantage/world.jpg") no-repeat 50% / cover;
+}
+#smartphone {
+    background: url("../img/advantage/smartphone.jpg") no-repeat 50% / cover;
+}
+#businessman {
+    background: url("../img/advantage/businessman.jpg") no-repeat 50% / cover;
+}
+#card {
+    background: url("../img/advantage/card.jpg") no-repeat 50% / cover;
+}

@@ -1,0 +1,174 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 920px;
+        padding: 0 32px;
+    }
+}
+
+@media (max-width: 922px) {
+    .container {
+        width: 760px;
+        padding: 0 32px;
+    }
+    .restaurants {
+        &__wrapper {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 570px;
+        padding: 0 16px;
+    }
+    .footer {
+        &__wrapper {
+            justify-content: space-between;
+            gap: unset;
+        }
+    }
+    .food {
+        &__wrapper {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 420px;
+        padding: 0 16px;
+    }
+    .search {
+        margin-top: 32px;
+    }
+    .restaurants {
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+    .footer {
+        &__policy {
+            justify-items: flex-start;
+            justify-content: flex-start;
+            p {
+                margin-bottom: 24px;
+            }
+        }
+        &__download {
+            justify-content: space-between;
+        }
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+        &__links {
+            margin-top: 39px;
+            grid-template-rows: repeat(7, 16px);
+            grid-template-columns: 196px;
+            justify-content: flex-start;
+            & a:nth-child(4) {
+                grid-column: unset;
+            }
+            & a:nth-child(5) {
+                grid-column: unset;
+                grid-row: unset;
+            }
+            & a:nth-child(6) {
+                grid-column: unset;
+                grid-row: unset;
+            }
+            & a:nth-child(7) {
+                grid-column: unset;
+                grid-row: unset;
+            }
+        }
+        &__interactive {
+            &-select {
+                width: 173px;
+            }
+        }
+        &__get {
+            margin-right: 0;
+        }
+    }
+    .pageup {
+        width: 64px;
+        height: 64px;
+    }
+    .pushkin {
+        background: url("../img/traktir-small_bg.jpg") center (center / cover)
+            no-repeat;
+        padding: 131px 0 0;
+
+        &__block {
+            padding: 41px 38px;
+            width: 100%;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            row-gap: unset;
+            &-title {
+                grid-column: unset;
+            }
+            &-subtitle {
+                margin-top: 40px;
+            }
+            &-time {
+                padding: 10px 16px;
+                margin-top: 16px;
+                justify-self: unset;
+            }
+        }
+    }
+    .food {
+        &__tabs {
+            padding: 30px 8px;
+            grid-template-columns: repeat(auto-fit, minmax(70px, max-content));
+            column-gap: 24px;
+            row-gap: 10px;
+        }
+        &__tab {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 320px;
+        padding: 0 8px;
+    }
+    .header {
+        &__button {
+            margin: 0;
+        }
+        &__img {
+            display: none;
+        }
+    }
+    .search {
+        margin-top: 32px;
+    }
+    .pushkin {
+        padding: 131px 0 0;
+
+        &__block {
+            padding: 24px 46px;
+            width: 100%;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            &-title {
+                font-size: 24px;
+                line-height: 28px;
+            }
+            &-subtitle {
+                margin-top: 40px;
+            }
+            &-time {
+                padding: 10px 16px;
+                margin-top: 16px;
+            }
+        }
+    }
+}

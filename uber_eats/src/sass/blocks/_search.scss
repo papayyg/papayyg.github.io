@@ -1,0 +1,20 @@
+.search {
+    margin-top: 56px;
+    &__square {
+        mix-blend-mode: normal;
+        border-width: 0 0 1px 0;
+        border-color: #757575;
+        color: #626262;
+        opacity: 0.5;
+        width: 100%;
+        &:focus {
+            outline: none;
+        }
+        &::-webkit-input-placeholder {
+            color: #626262;;
+            mix-blend-mode: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

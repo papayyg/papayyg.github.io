@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    position: relative;
+    width: 956px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/search';
+@import 'blocks/restaurants';
+@import 'blocks/footer';
+@import 'blocks/btn-up';
+@import 'blocks/pushkin';
+@import 'blocks/food';
+@import 'blocks/media';
